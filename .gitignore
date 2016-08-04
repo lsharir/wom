@@ -1,0 +1,15 @@
+# node files
+npm-debug.log
+
+# Typing #
+/client/src/typings/tsd/
+/client/typings/
+/client/tsd_typings/
+
+# Dist #
+**/dist
+
+**/.idea/**
+**/node_modules/
+*.log
+**/.vscode/**

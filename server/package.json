@@ -1,0 +1,14 @@
+{
+  "name": "wom-client",
+  "private": true,
+  "author": "Liran Sharir <lsharir@gmail.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4"
+  }
+}
