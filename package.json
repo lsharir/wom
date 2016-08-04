@@ -1,7 +1,7 @@
 {
   "name": "wom",
   "private": true,
-  "author": "Liran Sharir <lsharir@gmail.com>",
+  "author": "Liran Sharir",
   "version": "1.0.0",
   "scripts": {
     "postinstall": "npm run install-server-dependencies && npm run install-client-dependencies",

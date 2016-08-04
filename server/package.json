@@ -1,7 +1,7 @@
 {
   "name": "wom-client",
   "private": true,
-  "author": "Liran Sharir <lsharir@gmail.com>",
+  "author": "Liran Sharir",
   "version": "1.0.0",
   "scripts": {
     "start": "node server"
