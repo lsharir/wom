@@ -6,7 +6,10 @@
   "scripts": {
     "postinstall": "npm run install-server-dependencies && npm run install-client-dependencies",
     "install-server-dependencies": "cd server && npm install",
-    "install-client-dependencies": "cd client && npm install"
+    "install-client-dependencies": "cd client && npm install",
+    "firebase-build": "cd client && npm run firebase-build",
+    "firebase-deploy": "firebase deploy",
+    "deploy": "npm install && npm run firebase-build && npm run firebase-deploy"
   },
   "engineStrict": true,
   "engines": {

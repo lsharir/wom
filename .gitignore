@@ -9,6 +9,10 @@ npm-debug.log
 # Dist #
 **/dist
 
+# Firebase #
+**/public
+firebaseapp.config.ts
+
 **/.idea/**
 **/node_modules/
 *.log

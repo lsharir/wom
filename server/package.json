@@ -1,5 +1,5 @@
 {
-  "name": "wom-client",
+  "name": "wom-server",
   "private": true,
   "author": "Liran Sharir",
   "version": "1.0.0",
@@ -7,8 +7,8 @@
     "start": "node server"
   },
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "cookie-parser": "^1.4.1",
-    "express": "^4.13.4"
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "express": "4.14.0"
   }
 }
