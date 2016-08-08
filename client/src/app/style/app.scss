@@ -1,0 +1,42 @@
+@import '_constants';
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,300,700);
+
+* {
+    font-family: $font;
+}
+
+body {
+    background-color: $alabaster;
+}
+
+button.shbutton {
+    border: none;
+    padding: $padding/2 $padding;
+    background: $blue-yonder;
+    color: $alabaster;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: $font;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 2rem;
+    color: $blue-tufts;
+}
+
+.shpadding {
+    padding: $padding;
+}
+
+shrow, .shrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+shtretch {
+    flex-grow: 1;
+}

@@ -1,0 +1,1 @@
+currently deployed on https://word-of-mouth-db27b.firebaseapp.com
