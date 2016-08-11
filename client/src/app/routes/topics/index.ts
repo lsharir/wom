@@ -1,1 +1,1 @@
-export { TopicsPage } from './topic.page';
+export { SubjectsPage } from './topic.page';

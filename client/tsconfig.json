@@ -1,4 +1,8 @@
 {
+  "files" : [
+    "typings/index.d.ts",
+    "typings-custom/shortid.d.ts"
+  ],
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",

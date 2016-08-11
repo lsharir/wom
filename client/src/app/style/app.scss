@@ -19,12 +19,40 @@ button.shbutton {
     font-family: $font;
     text-transform: capitalize;
     cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background: $lilac;
+    }
+}
+
+input[type="text"].shinput {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $gray;
+    padding: $padding/2 $padding;
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: block;
+    outline: none;
+    text-align: center;
+    width: 100%;
 }
 
 .title {
     font-weight: 300;
     font-size: 2rem;
     color: $blue-tufts;
+}
+
+section {
+    text-align: center;
+}
+
+shcontainer {
+    max-width: 40rem;
+    display: block;
+    margin: auto;
 }
 
 .shpadding {
@@ -39,4 +67,16 @@ shrow, .shrow {
 
 shtretch {
     flex-grow: 1;
+}
+
+shcard {
+    background: $gray;
+    padding: $padding;
+    display: block;
+    margin: $margin 0;
+}
+
+.subject-title {
+    font-size: 1.25rem;
+    font-weight: 300;
 }
